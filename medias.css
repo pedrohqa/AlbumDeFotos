@@ -1,0 +1,23 @@
+@charset "UTF-8";
+    /* DEVICES BREAKPOINTS 
+    Telas pequenas: até 600px
+    Celulares: 600px até 768px
+    Tablets: 768px até 992px
+    Ipad: acima de 992px
+    Notebooks: 992px até 1200px
+    Grendes Telas: acima de 1200 */
+
+    /* Tamanho de Tablet */
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        section.coluna{
+            flex: 1 1 50%;
+        }
+        
+    }
+    /* Tamanho de Ipad */
+    @media screen and (min-width:992px){
+        section.coluna{
+            flex: 1 1 25%;
+        }
+        
+    }
